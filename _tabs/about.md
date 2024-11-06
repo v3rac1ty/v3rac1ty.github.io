@@ -11,19 +11,19 @@ order: 4
 
 - 🔭 I’m currently working on [a ML Fitness Tracker](https://github.com/v3rac1ty/ML-Fitness-Tracker)
 
-- 🌱 I’m currently learning **data management, code architecture**
+- 🤝 I’m looking for help with **a Custom 3D Printer**
 
 - 👯 I’m collaborating on **Illini VEX Robotics**
 
-- 🤝 I’m looking for help with **a Custom 3D Printer**
+- 🌱 I’m currently learning about **data management and code architecture**
 
-- 👨‍💻 All of my projects are available at [my github page](https://v3rac1ty.github.io/projects/)
+- 👨‍💻 All of my projects are available on [my github page](https://v3rac1ty.github.io/projects/)
 
 - 💬 Ask me about **robotics, artificial intelligence, machine learning**
 
-- 📫 How to reach me **rishivemulapalli@gmail.com**
+- 📫 Reach me at **rishivemulapalli@gmail.com**
 
-- 📄 Know about my experiences: [resume](https://rishivemulapalli.tiiny.site/)
+- 📄 Learn about my experiences in my [resume](https://rishivemulapalli.tiiny.site/)
 
 - ⚡ Fun fact **I enjoy taking photos and biking!**
 
