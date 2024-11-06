@@ -17,13 +17,13 @@ order: 4
 
 - 🤝 I’m looking for help with **a Custom 3D Printer**
 
-- 👨‍💻 All of my projects are available at [https://v3rac1ty.github.io/projects/](https://v3rac1ty.github.io/projects/)
+- 👨‍💻 All of my projects are available at [https://v3rac1ty.github.io/projects/](my github page)
 
 - 💬 Ask me about **robotics, artificial intelligence, machine learning**
 
 - 📫 How to reach me **rishivemulapalli@gmail.com**
 
-- 📄 Know about my experiences [rishivemulapalli.tiiny.site](rishivemulapalli.tiiny.site)
+- 📄 Know about my experiences: [https://rishivemulapalli.tiiny.site](LinkedIn)
 
 - ⚡ Fun fact **I enjoy taking photos and biking!**
 
