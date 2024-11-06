@@ -74,47 +74,42 @@ title: Rishi Vemulapalli
 
 <img src="https://media.licdn.com/dms/image/v2/D4E35AQHROgqCgihYrg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1725948925073?e=1731531600&v=beta&t=XUpie00uy-BgaDLpds8YV-LG1uRyXair4ZT5nXomBpA" alt="Rishi Vemulapalli" class="profile-pic"/>
 
-Welcome to my GitHub Pages! I’m a Computer Engineering student at the University of Illinois Urbana-Champaign, specializing in **Artificial Intelligence**, **Robotics**, and **Cybernetics**. Here, you’ll find insights into my projects, skills, and leadership roles that showcase my dedication to innovation in engineering.
+Welcome to my GitHub Pages! My name is Rishi Vemulapalli, a sophomore at the University of Illinois Urbana-Champaign, pursuing a B.S. in **Computer Engineering** and a **Data Science Minor** with a specialization in **Artificial Intelligence**, **Robotics**, and **Cybernetics**. I co-founded a FIRST Tech Challenge team and a non-profit organization to promote STEM education among young learners. Currently, as a Programming Lead for Illini VEX Robotics, I lead the team to develop cutting-edge autonomous navigation algorithms. I am highly passionate about artificial intelligence and machine learning, and I am actively seeking research and internship opportunities to further advance my skills and knowledge in these fields.
 
 ---
 
 ## 📚 Education
 ### University of Illinois Urbana-Champaign, Grainger College of Engineering  
 **Bachelor of Science in Computer Engineering**  
-- Concentrations: Artificial Intelligence, Robotics, and Cybernetics  
-- Relevant Coursework: Analog Signal Processing, Game Development, Data Structures & Algorithms
+- **Concentrations:** Artificial Intelligence, Robotics, and Cybernetics  
+- **Relevant Coursework:** Analog Signal Processing, Data Structures & Algorithms, Game Development, Discrete Structures, Computer Systems & Programming, Intro to Electronics, Intro to Computing.
+- **Prospective Coursework:** Database Systems, Introduction to Robotics, Artificial Intelligence, Computer Systems Engineering, Control Systems, Machine Learning, Robot Dynamics and Control, Applied Machine Learning.
+
 
 ---
 
 ## 💼 Experience
-<div class="section">
 
 ### Illini VEX Robotics  
 **Programming Team Lead** (Aug 2023 – Present)  
 - Designed localization and path planning algorithms for autonomous navigation.
-- Improved team efficiency by 20% through optimized code.
+- Improved team efficiency by 20% through optimized code architecture.
 
 **Full-Stack Developer** (Aug 2024 – Present)  
 - Developing a responsive, professional website for team visibility and sponsorship.
 
-</div>
-
 ---
 
 ## 🚀 Projects
-<div class="project-card">
-  ### Custom Quadruped Robot  
-  **Role:** Software Developer  
-  - Developing custom motors and inverse kinematics for stable movement.
-  - Integrating multi-sensor feedback for obstacle detection and decision-making.
-</div>
+### Custom Quadruped Robot  
+**Role:** Software Developer  
+- Developing custom motors and inverse kinematics for stable movement.
+- Integrating multi-sensor feedback for obstacle detection and decision-making.
 
-<div class="project-card">
-  ### ML Fitness Tracker  
-  **Role:** Software Developer  
-  - Real-time activity recognition with Python and Matplotlib.
-  - Applying machine learning for exercise tracking with high accuracy.
-</div>
+### ML Fitness Tracker  
+**Role:** Software Developer  
+- Real-time activity recognition with Python and Matplotlib.
+- Applying machine learning for exercise tracking with high accuracy.
 
 ---
 
@@ -130,9 +125,10 @@ Welcome to my GitHub Pages! I’m a Computer Engineering student at the Universi
 ---
 
 ## 🛠 Skills
-- **Languages:** Java, Python, C/C++, C#, JavaScript, Swift  
-- **Frameworks & Libraries:** OpenCV, TensorFlow  
-- **Tools:** Git/GitHub, Linux, Unity, Autodesk Fusion 360  
+- **Languages:** Java, Python, C/C++, C#, HTML/CSS, JavaScript, Swift 
+- **Frameworks & Libraries:** OpenCV, TensorFlow
+- **Tools:** Visual Studio Code, Eclipse, Jupyter Notebooks, Git/Github, Linux, Unreal Engine, Unity Engine, Autodesk Fusion 360.
+
 
 ---
 
