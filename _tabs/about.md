@@ -72,7 +72,7 @@ title: Rishi Vemulapalli
 
 # Rishi Vemulapalli
 
-<img src="path-to-your-profile-pic.jpg" alt="Rishi Vemulapalli" class="profile-pic"/>
+<img src="https://media.licdn.com/dms/image/v2/D4E35AQHROgqCgihYrg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1725948925073?e=1731531600&v=beta&t=XUpie00uy-BgaDLpds8YV-LG1uRyXair4ZT5nXomBpA" alt="Rishi Vemulapalli" class="profile-pic"/>
 
 Welcome to my GitHub Pages! I’m a Computer Engineering student at the University of Illinois Urbana-Champaign, specializing in **Artificial Intelligence**, **Robotics**, and **Cybernetics**. Here, you’ll find insights into my projects, skills, and leadership roles that showcase my dedication to innovation in engineering.
 
