@@ -62,7 +62,7 @@ RUN apt-get update && apt-get install -y curl libssl-dev
 
 ### Developing the Web Scraper
 
-A custom `curl` wrapper was implemented in C++ to manage HTTP requests and retrieve data from Yahoo Finance. This wrapper abstracts the complexity of handling raw HTTP transactions, providing a more object-oriented interface for data retrieval.
+A custom curl wrapper was implemented in C++ to manage HTTP requests and retrieve data from Yahoo Finance. This wrapper abstracts the complexity of handling raw HTTP transactions, providing a more object-oriented interface for data retrieval.
 
 <!-- ![Web Scraper Code](path-to-your-image/web-scraper-code.png) -->
 
@@ -94,13 +94,13 @@ TEST_CASE("URL Generation") {
 
 ## Data Visualization
 
-The application features candlestick charts to represent stock performance. Green candles indicate a rise in stock price, while red candles signify a decline. Custom plotting was achieved by extending the I Am Plot library to support the desired chart types, ensuring accurate and visually appealing data representation.
+The application features candlestick charts to represent stock performance. Green candles indicate a rise in stock price, while red candles signify a decline. Custom plotting was achieved by extending the ImGui plot library to support the desired chart types, ensuring accurate and visually appealing data representation.
 
 <!-- ![Candlestick Chart](path-to-your-image/candlestick-chart.png) -->
 
 ### Custom Plotting Enhancements
 
-Since the I Am Plot library did not natively support candlestick charts, I extended its functionality to accommodate custom plotting requirements. This involved creating custom blocks and integrating them seamlessly with the existing plotting mechanisms.
+Since the ImGui plot library did not natively support candlestick charts, I extended its functionality to accommodate custom plotting requirements. This involved creating custom blocks and integrating them seamlessly with the existing plotting mechanisms.
 
 <!-- ![Custom Plotting](path-to-your-image/custom-plotting.png) -->
 
