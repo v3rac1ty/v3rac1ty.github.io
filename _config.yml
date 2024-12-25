@@ -14,16 +14,16 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Rishi Vemulapalli's Portfolio # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Coding Projects # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  This website is a collection of my coding projects and blog posts.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://v3rac1ty.github.io"
 
 github:
   username: v3rac1ty # change to your GitHub username
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://media.licdn.com/dms/image/v2/D4E35AQHROgqCgihYrg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1725948925073?e=1731445200&v=beta&t=I-me5Z3d6qWYZSPALmy7KjmBP95OTCozNILMfRV24_E
+avatar: https://media.licdn.com/dms/image/v2/D4E03AQEv-Rq5vSN1ZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694743144170?e=1740614400&v=beta&t=VOGUjXbFee8Ua1B2EzZEnVMgq6Bekbip3nRg1JjdDhM
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
