@@ -5,8 +5,6 @@ date: 24-12-2024
 categories: [Applications]
 tags: [data_analysis]
 ---
-## Overview
-
 Investing in the stock market can be very rewarding and challenging. Effective tracking and analysis are important for making informed decisions. To help with this process, I am developing a C++ application designed to monitor real-time stock data, visualize performance metrics, and provide insightful data analytics through comprehensive graphs. This project shows my expertise in web scraping, data parsing, GUI development, and data visualization using modern C++ technologies.
 
 <!-- ![Introduction Image](path-to-your-image/introduction.png) -->
