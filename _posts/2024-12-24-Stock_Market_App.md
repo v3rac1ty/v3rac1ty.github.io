@@ -5,14 +5,9 @@ date: 24-12-2024
 categories: [Applications]
 tags: [data_analysis]
 ---
-
-# Stock Market Tracker Application
-
-<!-- ![Project Banner](path-to-your-image/banner.png) -->
-
 ## Overview
 
-Investing in the stock market can be both rewarding and challenging. Effective tracking and analysis are important for making informed decisions. To help with this process, I developed a C++ application designed to monitor real-time stock data, visualize performance metrics, and provide insightful data analytics through comprehensive graphs. This project shows my expertise in web scraping, data parsing, GUI development, and data visualization using modern C++ technologies.
+Investing in the stock market can be very rewarding and challenging. Effective tracking and analysis are important for making informed decisions. To help with this process, I am developing a C++ application designed to monitor real-time stock data, visualize performance metrics, and provide insightful data analytics through comprehensive graphs. This project shows my expertise in web scraping, data parsing, GUI development, and data visualization using modern C++ technologies.
 
 <!-- ![Introduction Image](path-to-your-image/introduction.png) -->
 
@@ -41,10 +36,10 @@ To ensure the framework was correctly set up, I built and ran the default applic
 
 ```bash
 # Build the application
-build_command
+build
 
 # Run the application
-run_command
+run
 ```
 
 <!-- ![Default App](path-to-your-image/default-app.png) -->
@@ -110,8 +105,8 @@ After completing the development and testing phases, the application is ready fo
 
 ```bash
 # Build and run
-build_command
-run_command
+build
+run
 ```
 
 <!-- ![Running Application](path-to-your-image/running-application.png) -->

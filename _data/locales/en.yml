@@ -4,16 +4,16 @@
 
 layout:
   post: Post
-  category: Category
+  projects: Category
   tag: Tag
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Projects
+  projects: Projects
   tags: Tags
-  archives: Timeline
+  timeline: Timeline
   about: About
 
 # the text displayed in the search bar & search results
