@@ -31,7 +31,7 @@ std::vector<std::string> readElement(const std::string& input, const std::string
 }
 
 // Get path data from file
-std::vector<odom::Pose> getData(const asset& path) {
+std::vector<Odometry::Pose> getData(const asset& path) {
     // Code for reading path points from a file
 }
 ```
@@ -40,7 +40,7 @@ std::vector<odom::Pose> getData(const asset& path) {
 
 ```cpp
 // Find the closest point on the path to the robot
-int findClosest(odom::Pose pose, std::vector<odom::Pose> path) {
+int findClosest(Odometry::Pose pose, std::vector<Odometry::Pose> path) {
     // Code for finding the closest point
 }
 ```
@@ -49,13 +49,13 @@ int findClosest(odom::Pose pose, std::vector<odom::Pose> path) {
 
 ```cpp
 // Function to calculate intersection between a circle and a line
-float circleIntersect(odom::Pose p1, odom::Pose p2, odom::Pose pose, float lookaheadDist) {
+float circleIntersect(Odometry::Pose p1, Odometry::Pose p2, Odometry::Pose pose, float lookaheadDist) {
     // Code for calculating intersection
     return -1; // return value if no intersection found
 }
 
 // Returns the lookahead point
-odom::Pose lookaheadPoint(odom::Pose lastLookahead, odom::Pose pose, std::vector<odom::Pose> path, int closest, float lookaheadDist) {
+Odometry::Pose lookaheadPoint(Odometry::Pose lastLookahead, Odometry::Pose pose, std::vector<Odometry::Pose> path, int closest, float lookaheadDist) {
     // Code for calculating the lookahead point
     return lastLookahead; // return the updated lookahead
 }
@@ -72,15 +72,15 @@ void Chassis::follow(const asset& path, float lookahead, int timeout, bool forwa
         return;
     }
 
-    std::vector<odom::Pose> pathPoints = getData(path);
+    std::vector<Odometry::Pose> pathPoints = getData(path);
     if (pathPoints.size() == 0) {
         return;
     }
 
-    odom::Pose pose = this->getPose(true);
-    odom::Pose lastPose = pose;
-    odom::Pose lookaheadPose(0, 0, 0);
-    odom::Pose lastLookahead = pathPoints.at(0);
+    Odometry::Pose pose = this->getPose(true);
+    Odometry::Pose lastPose = pose;
+    Odometry::Pose lookaheadPose(0, 0, 0);
+    Odometry::Pose lastLookahead = pathPoints.at(0);
     lastLookahead.theta = 0;
 
     int closestPoint;
