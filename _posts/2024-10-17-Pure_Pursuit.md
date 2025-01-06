@@ -31,7 +31,7 @@ std::vector<std::string> readElement(const std::string& input, const std::string
 }
 
 // Get path data from file
-std::vector<pursuit::Pose> getData(const asset& path) {
+std::vector<odom::Pose> getData(const asset& path) {
     // Code for reading path points from a file
 }
 ```
@@ -40,7 +40,7 @@ std::vector<pursuit::Pose> getData(const asset& path) {
 
 ```cpp
 // Find the closest point on the path to the robot
-int findClosest(pursuit::Pose pose, std::vector<pursuit::Pose> path) {
+int findClosest(odom::Pose pose, std::vector<odom::Pose> path) {
     // Code for finding the closest point
 }
 ```
@@ -49,13 +49,13 @@ int findClosest(pursuit::Pose pose, std::vector<pursuit::Pose> path) {
 
 ```cpp
 // Function to calculate intersection between a circle and a line
-float circleIntersect(pursuit::Pose p1, pursuit::Pose p2, pursuit::Pose pose, float lookaheadDist) {
+float circleIntersect(odom::Pose p1, odom::Pose p2, odom::Pose pose, float lookaheadDist) {
     // Code for calculating intersection
     return -1; // return value if no intersection found
 }
 
 // Returns the lookahead point
-pursuit::Pose lookaheadPoint(pursuit::Pose lastLookahead, pursuit::Pose pose, std::vector<pursuit::Pose> path, int closest, float lookaheadDist) {
+odom::Pose lookaheadPoint(odom::Pose lastLookahead, odom::Pose pose, std::vector<odom::Pose> path, int closest, float lookaheadDist) {
     // Code for calculating the lookahead point
     return lastLookahead; // return the updated lookahead
 }
@@ -65,22 +65,22 @@ pursuit::Pose lookaheadPoint(pursuit::Pose lastLookahead, pursuit::Pose pose, st
 
 ```cpp
 // Function to follow the path using the Pure Pursuit algorithm
-void pursuit::Chassis::follow(const asset& path, float lookahead, int timeout, bool forwards, bool async) {
+void Chassis::follow(const asset& path, float lookahead, int timeout, bool forwards, bool async) {
     if (async) {
         pros::Task task([&]() { follow(path, lookahead, timeout, forwards, false); });
         pros::delay(10); 
         return;
     }
 
-    std::vector<pursuit::Pose> pathPoints = getData(path);
+    std::vector<odom::Pose> pathPoints = getData(path);
     if (pathPoints.size() == 0) {
         return;
     }
 
-    pursuit::Pose pose = this->getPose(true);
-    pursuit::Pose lastPose = pose;
-    pursuit::Pose lookaheadPose(0, 0, 0);
-    pursuit::Pose lastLookahead = pathPoints.at(0);
+    odom::Pose pose = this->getPose(true);
+    odom::Pose lastPose = pose;
+    odom::Pose lookaheadPose(0, 0, 0);
+    odom::Pose lastLookahead = pathPoints.at(0);
     lastLookahead.theta = 0;
 
     int closestPoint;
