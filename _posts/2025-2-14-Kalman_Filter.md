@@ -157,4 +157,4 @@ kf.reset(
 - All methods are marked `inline` to encourage compiler optimization
 - The entire implementation is header-only for ease of inclusion
 
-For more information on PID control, check out the [Purdue SIGBots Wiki on Kalman Filters](https://wiki.purduesigbots.com/software/control-algorithms/kalman-filter).
+For more information on Kalman Filters, check out the [Purdue SIGBots Wiki on Kalman Filters](https://wiki.purduesigbots.com/software/control-algorithms/kalman-filter).
